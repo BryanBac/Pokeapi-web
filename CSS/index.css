@@ -1,3 +1,8 @@
 #cuerpo{
-    background-color: black;
+    background-color: white;
+}
+
+#obtener{
+    height: 50px;
+    width: 300px;
 }
