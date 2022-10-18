@@ -18,12 +18,12 @@ const cargarPokemons = async () => {
         const datos2 = await imagen.json();
         img = datos2.sprites.front_default;
         lista_pokemons +=
-          "<div id='pokemon'><img src='" +
+          "<div id='pokemon' style='border: 7px solid;'><h1>" +
+          pokedex[valor].name +
+          "</h1><img src='" +
           img +
           "' alt=''>" +
-          "<h1>" +
-          pokedex[valor].name +
-          "</h1></div>";
+          "</div>";
       }
 
       document.getElementById("Lista_Pokemon").innerHTML = lista_pokemons;
