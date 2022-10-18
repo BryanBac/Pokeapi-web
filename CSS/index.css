@@ -17,6 +17,12 @@
     background-color: whitesmoke;
     font-size: 50px;
 }
+#obtener:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
 #parte_arriba{
     background-color: red;
     margin-top: 0px;
