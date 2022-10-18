@@ -1,10 +1,28 @@
 #cuerpo{
-    background-color: white;
+    background-color: whitesmoke;
+    border-color: black;
+    margin: 0;
+    padding: 0;
 }
-
+#boton{
+    display:flex;
+    justify-content: center;
+}
 #obtener{
-    height: 50px;
-    width: 300px;
+    display: block;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 7px solid;
+    background-color: whitesmoke;
+    font-size: 50px;
+}
+#parte_arriba{
+    background-color: red;
+    margin-top: 0px;
+}
+#parte_abajo {
+    background-color: whitesmoke;
 }
 #Lista_Pokemon{
     width: 90%;
@@ -13,5 +31,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
+    justify-content: center;
+}
+#pokemon{
+    background-color: whitesmoke;
+    display:flex;
     justify-content: center;
 }
